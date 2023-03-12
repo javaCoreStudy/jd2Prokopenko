@@ -6,12 +6,25 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
-@Primary
 public class SecondRealisation implements PersonRep{
 
     @Override
     public List<Person> findAll() {
         return null;
+    }
+
+    @Override
+    public Person findOne(int id) {
+        return null;
+    }
+
+    @Override
+    public Person updatePerson(int id, Person person) {
+        return null;
+    }
+
+    @Override
+    public void createPerson(Person person) {
+
     }
 }
